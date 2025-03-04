@@ -1,0 +1,19 @@
+{
+  "name": "aula01-setup-jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --watch src/index.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --injectGlobals false --runInBand test/",
+    "test:dev": "node --experimental-vm-modules node_modules/jest/bin/jest.js --injectGlobals false --runInBand --watchAll test/",
+    "test:debug": "node --experimental-vm-modules --inspect-brk node_modules/jest/bin/jest.js --injectGlobals false --runInBand --watchAll test/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
