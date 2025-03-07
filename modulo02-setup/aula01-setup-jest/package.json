@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --runInBand test/",
-    "test:dev": "node --experimental-vm-modules node_modules/jest/bin/jest.js --runInBand --watchAll test/",
-    "test:debug": "node --experimental-vm-modules --inspect-brk node_modules/jest/bin/jest.js --runInBand --watchAll test/"
+    "start": "node --watch src/index.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --runInBand --injectGlobals false test/",
+    "test:dev": "node --experimental-vm-modules node_modules/jest/bin/jest.js --runInBand --injectGlobals false --watchAll test/",
+    "test:debug": "node --experimental-vm-modules --inspect-brk node_modules/jest/bin/jest.js --runInBand --injectGlobals false --watchAll test/"
   },
   "keywords": [],
   "author": "",
