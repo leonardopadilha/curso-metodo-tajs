@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1741254245564" clover="3.2.0">
-  <project timestamp="1741254245565" name="All files">
+<coverage generated="1741858469482" clover="3.2.0">
+  <project timestamp="1741858469482" name="All files">
     <metrics statements="37" coveredstatements="33" conditionals="8" coveredconditionals="7" methods="4" coveredmethods="4" elements="49" coveredelements="44" complexity="0" loc="37" ncloc="37" packages="1" files="2" classes="2"/>
     <file name="person.js" path="C:\Users\user\Documents\Cursos\Mobile\automacao\udemy\qazando\metodo_tajs\modulo03-conceitos-tajs\aula05-code-coverage\src\person.js">
       <metrics statements="9" coveredstatements="9" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
